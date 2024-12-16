@@ -19,7 +19,7 @@ jobs:
     - name: Download installers
       run: |
          wget https://archive.org/download/tiny-10-NTDEV/tiny10%2023h1%20x64.iso
-         mv tiny10\ 23h1\ x64.iso\ tiny10.iso
+         mv "tiny10 23h1 x64.iso" tiny10.iso
     - name: Release
       uses: softprops/action-gh-release@v2
       with:
